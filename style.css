@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-image: url("/pexels-photo-4334249.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+header h2 {
+  padding: 2rem;
+}
+
+#logo {
+  font-size: 4rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.search-form {
+
+  padding: 2rem;
+  display: flex;
+}
+
+.search-form input {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  width: 100%;
+  border: none;
+
+  border-radius: 7px 0 0 7px;
+}
+
+.search-form button {
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: rgb(255, 255, 255);
+  color: white;
+  cursor: pointer;
+  border-radius: 0 7px 7px 0;
+}
+
+.fa-color {
+  color: rgb(69, 68, 68);
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 4rem 0rem;
+  width: 90%;
+  margin: auto;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+.gallery-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-button {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more {
+  padding: 1rem 3rem;
+  background: rgb(108, 106, 125);
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 7px;
+}
