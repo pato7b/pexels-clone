@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-image: url("/pexels-photo-4334249.jpeg");
+  background-color: rgb(39, 39, 45);
   background-size: cover;
   display: flex;
   flex-direction: column;
